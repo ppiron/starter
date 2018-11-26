@@ -6,3 +6,13 @@
 
 
 @tailwind utilities;
+
+.gridded {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.subgridded {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
